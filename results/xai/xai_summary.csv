@@ -1,0 +1,13 @@
+task_type,learner,top_hp_perf,top_hp_disc,pfi_fig,pdp_fig
+classif,glmnet,lambda,lambda,figures/xai_pfi/pfi_glmnet_classif.png,figures/xai_pdp/pdp_glmnet_classif.png
+classif,rpart,cp,cp,figures/xai_pfi/pfi_rpart_classif.png,figures/xai_pdp/pdp_rpart_classif.png
+classif,kknn,k,k,figures/xai_pfi/pfi_kknn_classif.png,figures/xai_pdp/pdp_kknn_classif.png
+classif,svm,gamma,gamma,figures/xai_pfi/pfi_svm_classif.png,figures/xai_pdp/pdp_svm_classif.png
+classif,ranger,min.node.size,min.node.size,figures/xai_pfi/pfi_ranger_classif.png,figures/xai_pdp/pdp_ranger_classif.png
+classif,xgboost,alpha,alpha,figures/xai_pfi/pfi_xgboost_classif.png,figures/xai_pdp/pdp_xgboost_classif.png
+regr,glmnet,lambda,lambda,figures/xai_pfi/pfi_glmnet_regr.png,figures/xai_pdp/pdp_glmnet_regr.png
+regr,rpart,cp,cp,figures/xai_pfi/pfi_rpart_regr.png,figures/xai_pdp/pdp_rpart_regr.png
+regr,kknn,k,k,figures/xai_pfi/pfi_kknn_regr.png,figures/xai_pdp/pdp_kknn_regr.png
+regr,svm,gamma,gamma,figures/xai_pfi/pfi_svm_regr.png,figures/xai_pdp/pdp_svm_regr.png
+regr,ranger,min.node.size,min.node.size,figures/xai_pfi/pfi_ranger_regr.png,figures/xai_pdp/pdp_ranger_regr.png
+regr,xgboost,lambda,subsample,figures/xai_pfi/pfi_xgboost_regr.png,figures/xai_pdp/pdp_xgboost_regr.png

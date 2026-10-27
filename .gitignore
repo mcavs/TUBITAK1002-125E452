@@ -1,0 +1,35 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Logs & Temporary Files
+*.log
+scratch/
+.aider*
+.gcp_state.json
+.Rhistory
+.ssh/
+~$*
+__pycache__/
+
+# Large Model Binaries (>100MB / Joblib)
+models/
+
+# Raw Large Simulation Results (>47GB, 374 CSVs)
+# Note: Summary metrics are preserved and tracked in results/
+results/glmnet/
+results/kknn/
+results/ranger/
+results/rpart/
+results/svm/
+results/xgboost/
+
+# Administrative, Proposal, Reports & Literature
+başvuru evrakları/
+sonuç raporu/
+papers/
+gcp_startup.sh
+restart_*.sh
+run_mercedes_*.R
+*.Rapp.history
